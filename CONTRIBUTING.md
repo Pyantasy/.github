@@ -48,3 +48,7 @@ You can copy this `CONTRIBUTING.md` into a product repository, or add a short lo
 `https://github.com/Pyantasy/.github/blob/main/CONTRIBUTING.md`
 
 Keep product-specific build/test steps in that repo’s README; keep this merge process consistent org-wide.
+
+## iOS versioning
+
+Native iOS apps use SemVer for marketing versions. See [docs/ios-versioning.md](docs/ios-versioning.md) and start new apps from [templates/ios-app/](templates/ios-app/).

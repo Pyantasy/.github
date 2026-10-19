@@ -1,0 +1,5 @@
+Config/Secrets.xcconfig
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/

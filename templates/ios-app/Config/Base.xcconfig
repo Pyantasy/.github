@@ -1,0 +1,11 @@
+// Shared signing + version defaults for Debug/Release.
+// Local team ID lives in Secrets.xcconfig (gitignored). Copy from Secrets.xcconfig.example.
+#include? "Secrets.xcconfig"
+
+CODE_SIGN_STYLE = Automatic
+
+// Company SemVer standard (https://github.com/Pyantasy/.github/blob/main/docs/ios-versioning.md):
+// MARKETING_VERSION  = SemVer MAJOR.MINOR.PATCH only (no -pre / +meta in ASC uploads)
+// CURRENT_PROJECT_VERSION = monotonic integer build; bump every archive / RC
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 1

@@ -13,12 +13,15 @@ Agents and humans need one place to find the **PR-required** merge rule that app
 | [`profile/README.md`](profile/README.md) | Organization profile (visible on the [Pyantasy](https://github.com/Pyantasy) org page) |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Reusable contributing guide (org default community health file) |
 | [`docs/pr-required-process.md`](docs/pr-required-process.md) | Full PR-required process, limits, and PYA-73 background |
+| [`docs/ios-versioning.md`](docs/ios-versioning.md) | SemVer marketing version + integer build standard for iOS |
+| [`templates/ios-app/`](templates/ios-app/) | XcodeGen scaffold that defaults to SemVer `0.1.0` + build `1` |
 
 ## Quick start (contributors)
 
 1. Read [CONTRIBUTING.md](CONTRIBUTING.md).
 2. Never treat direct pushes to `main` / `master` as normal practice.
 3. Open a PR; get at least one review before merge.
+4. For new native iOS apps, copy [`templates/ios-app/`](templates/ios-app/) and follow [docs/ios-versioning.md](docs/ios-versioning.md).
 
 ## Changing these docs
 
